@@ -426,6 +426,58 @@ article .icon {
 
 
 
+/* Send Email Form */
+.email-form-container {
+    display: flex;
+    justify-content: center; 
+    border-radius: 2rem;
+    /* border: rgb(53, 53, 53) 0.1rem solid; */
+    /* border-color: rgb(163, 163, 163); */
+    /* background: rgb(250, 250, 250); */
+    margin: 2rem auto; 
+    padding: 0.5rem;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #333;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+.submit-btn:hover {
+    color: white;
+    background: rgb(53, 53, 53);
+    text-decoration: underline;
+}
+.submit-btn {
+    background: none;
+    color: black;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    padding: 0.75rem 1.5rem;
+    border-color: rgb(163, 163, 163);
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
 /* FOOTER */
 footer {
     height: 26vh;
@@ -435,3 +487,6 @@ footer {
 footer p {
     text-align: center;
 }
+
+
+
