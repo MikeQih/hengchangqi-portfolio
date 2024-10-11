@@ -459,7 +459,6 @@ article .icon {
 .submit-btn:hover {
     color: white;
     background: rgb(53, 53, 53);
-    text-decoration: underline;
 }
 .submit-btn {
     background: none;
